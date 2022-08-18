@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <LinearLayout
+        style="@style/DialogConfigLayout"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/DialogShowDesc"
+            android:text="蓝牙参数：" />
+
+        <TextView
+            android:id="@+id/tv_run_result"
+            style="@style/DialogInputContent"
+            android:text="" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/DialogConfigLayout"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/DialogShowDesc"
+            android:text="密码：" />
+
+        <EditText
+            android:id="@+id/et_max_speed"
+            style="@style/DialogInputContent"
+            android:hint="密码"
+            android:text="" />
+
+        <TextView
+            style="@style/DialogShowDesc"
+            android:text="广播间隔：" />
+
+        <EditText
+            android:id="@+id/et_add_speed_mode"
+            style="@style/DialogInputContent"
+            android:hint="广播间隔"
+            android:text="" />
+    </LinearLayout>
+
+        <LinearLayout
+            style="@style/DialogConfigLayout"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/DialogShowDesc"
+                android:text="仪表SN：" />
+
+            <EditText
+                android:id="@+id/et_show"
+                style="@style/DialogInputContent"
+                android:hint="仪表SN"
+                android:text="" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/DialogConfigLayout"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/DialogShowDesc"
+                android:text="广播持续时间：" />
+
+            <EditText
+                android:id="@+id/et_report_time"
+                style="@style/DialogInputContent"
+                android:hint="广播持续时间"
+                android:text="" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            style="@style/DialogConfigLayout"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/DialogShowDesc"
+                android:text="最小连接间隔：" />
+
+            <EditText
+                android:id="@+id/et_close_time"
+                style="@style/DialogInputContent"
+                android:hint="最小连接间隔"
+                android:text="" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/DialogConfigLayout"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/DialogShowDesc"
+                android:text="最大时间间隔范围：" />
+
+            <EditText
+                android:id="@+id/et_max_delay"
+                style="@style/DialogInputContent"
+                android:hint="最大时间间隔范围"
+                android:text="" />
+        </LinearLayout>
+
+    </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

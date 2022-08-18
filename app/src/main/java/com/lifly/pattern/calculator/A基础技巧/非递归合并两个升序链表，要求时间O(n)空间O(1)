@@ -1,0 +1,24 @@
+首先需要一个head来保存合并之后的链表头部，你可以把head设置为虚拟头，value为空，返回时只返回head的下一个
+需要一个指针tail来记录下一个插入位置的前一个位置，以及两个指针aPtr和bPtr来记录a和b未合并的部分的第一位
+aPtr和bPtr都不为空的时候，取val熟悉较小的何必跟，如果aPtr为空，则把整个Ptr以及后的元素全部合并，pPtr为空同理
+合并的时候，调整tail的next属性，在后移tail和*Ptr
+
+public ListNode mergeTwoLists(ListNode a, ListNode b) {
+    if (a == null || b == null) {
+        return a != null ? a : b;
+    }
+    ListNode head = new ListNode(0);
+    ListNode tail = head, aPtr = a, bPtr = b;
+    while (aPtr != null && bPtr != null) {
+        if (aPtr.val < bPtr.val) {
+            tail.next = aPtr;
+            aPtr = aPtr.next;
+        } else {
+            tail.next = bPtr;
+            bPtr = bPtr.next;
+        }
+        tail = tail.next;
+    }
+    tail.next = (aPtr != null ? aPtr : bPtr);
+    return head.next;
+}

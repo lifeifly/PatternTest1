@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ES20 升级</string>
+    <string name="connecting">Connecting</string>
+    <string name="scan_list">Scan list</string>
+    <string name="stop_scan">Stop</string>
+    <string name="start_scan">Scan</string>
+    <string name="connect_fail">Connection failed</string>
+    <string name="disconnect_success">Connection disconnected</string>
+    <string name="disconnect_fail">Disconnect the failure</string>
+    <string name="connect_time_out">Connection timeout</string>
+    <string name="upgrade_page">Upgrade page</string>
+    <string name="not_connect">Disconnected</string>
+    <string name="connected">Connected</string>
+    <string name="file_not_exist">File does not exist</string>
+    <string name="upgrading">Upgrading</string>
+    <string name="send_fail">Send failure</string>
+    <string name="read_config">Read configuration</string>
+    <string name="control_upgrade">Controller Upgrade</string>
+    <string name="current_device_version_info">Current vehicle version information:</string>
+    <string name="yb_soft_version">software version: %s</string>
+    <string name="yb_ware_version">hardware version: %s</string>
+    <string name="control_soft_version">software version: %s</string>
+    <string name="control_ware_version">hardware version: %s</string>
+    <string name="control_newest">The current controller version is %s</string>
+    <string name="current_control_version">Current controller version: %s</string>
+    <string name="upgrade_success">Upgrade success</string>
+    <string name="upgrade_fail">Upgrade failed :%s</string>
+    <string name="upgrade_percent">Upgrade progress :%d%%</string>
+    <string name="ware_version_err">The upgrade failed because the hardware version is abnormal. Procedure</string>
+    <string name="cmd_upgrade_fail">Program upgrade failed. Procedure</string>
+    <string name="pwd_err">Password mistake</string>
+    <string name="meter_version_info">Instrument version information:</string>
+    <string name="control_version_info">Controller version:</string>
+    <string name="refluse_ble_open_permission">I need control bluetooth to communicate with device!</string>
+    <string name="refuse_read_phone_state_permission">I need read phone permission to read debug log!</string>
+    <string name="refuse_row_permission">I need read or write sdcard to upgrade device!</string>
+    <string name="refuse_location_permission">I need GPS enabled for Bluetooth control!</string>
+
+    <string name="input_pda_empty">UserName Or Password must be not empty</string>
+</resources>

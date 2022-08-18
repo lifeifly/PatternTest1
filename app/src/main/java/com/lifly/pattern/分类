@@ -1,0 +1,3 @@
+创建型：Abstract Factory\Builder\Factory Method\Prototype\Singleton
+结构型:Adapter\Bridge\Composite\Decorate\Facade\Flyweight\Proxy
+行为型:Chain Of Responsibility\Command\Interpreter\Iterator\Mediator\Memento\Observer\State\Strategy\Template Method\Visitor

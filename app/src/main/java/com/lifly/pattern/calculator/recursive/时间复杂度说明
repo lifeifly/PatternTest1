@@ -1,0 +1,7 @@
+T(N)=aT(N/b)+O(N^d)
+//在递归找最大数方法中
+T(N)=2*T(N/2)+O(N^0)
+
+log b a>d  O(N^log b a)
+log b a<d  O(N^d)
+log b a=d  O(N^d*log N)

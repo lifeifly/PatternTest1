@@ -1,0 +1,6 @@
+1.有若干个样本a、b、c....类型假设是V
+2.一开始认为每个样本都是在单独的集合中
+3.用户可以在任何时候调用两个方法
+boolean isSameSet(V x,V y)查询样本x、y是否属于同一个集合
+void union(V x,V y)把x、y所在的集合所有样本合并成一个集合
+4.isSameSet和union的代价越小越好

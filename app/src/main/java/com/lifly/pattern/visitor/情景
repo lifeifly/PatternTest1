@@ -1,0 +1,2 @@
+在结构不变的情况下动态改变对于内部元素的动作,例如Computer中CPU\MEMERY\BOARD固定得情况下，可以使用Visitor
+如果需要加KEYBOARD\MOUSE等内部元素，则不适用Visitor模式
